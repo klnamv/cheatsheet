@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Source Code Pro', sans-serif;
+    background: #fffafa;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #91da2a;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar a {
+    background: #fffafa;
+    margin: 10px;
+    padding: 15px;
+    font-weight: 400;
+    color: #4B0082;
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+    color: #C71585;
+    margin-top: 50px;
+}
+
+h2 {
+    font-weight: 600;
+    text-align: center;
+    color: #4B0082;
+}
+
+table {
+    margin-right: auto; 
+    margin-left: auto;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 400;
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background: #C71585;
+    color: #fffafa;
+    text-transform: uppercase;
+    text-align: center;
+    height: 50px;
+}
+
+td {
+    border: 1px solid #91da2a;
+    height: 40px;
+    padding: 10px;
+}
+
+td:first-child {
+    width: 20%;
+}
+
+td:last-child {
+    width: 20%
+}
+
+th {
+    padding: 10px;
+}
+
+.linkdoc {
+    color:#C71585;
+    text-align: center;
+}
+
+.css thead {
+    background: #4B0082;
+    color: #fffafa;
+    text-transform: uppercase;
+    text-align: center;
+    height: 50px;
+}
+
+.csstopic {
+    color: #C71585;
+}
+
+footer {
+    background: #91da2a;
+    color: #fffafa;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer p {
+    margin: 0;
+  }
